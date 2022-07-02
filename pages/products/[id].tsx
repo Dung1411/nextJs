@@ -40,7 +40,6 @@ const ProductDetail = ({product}: ProductProps) => {
 //     }
 //   }
 // }
-
 export const getServerSideProps: GetServerSideProps = async (context: GetServerSidePropsContext)=>{
   context.res.setHeader(
     "Cache-Control",
