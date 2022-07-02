@@ -7,11 +7,11 @@ type ProductProps = {
 }
 
 const ProductDetail = ({product}: ProductProps) => {
+  console.log('product', product)
   if (!product) return null;
-  console.log(product);
   
   return (
-    <div>{product.product.name}</div>
+    <div>{product.name}</div>
   )
 }
 
